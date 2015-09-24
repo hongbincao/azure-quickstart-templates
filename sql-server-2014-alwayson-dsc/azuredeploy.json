@@ -304,13 +304,13 @@
 
     "deploySqlWitnessShare": "deploySqlWitnessShare",
     "deploySqlWitnessShareId": "[concat('Microsoft.Resources/deployments/', variables('deploySqlWitnessShare'))]",
-    "deploySqlWitnessShareTemplateUrl": "[concat(parameters('assetLocation'),'/deploySqlWitnessShare.json')]",
+    "deploySqlWitnessShareTemplateUrl": "[concat(parameters('assetLocation'),'/DeploySqlWitnessShare.json')]",
     "sqlWitnessSharePath" : "[concat(parameters('dnsPrefix'),'-fsw')]",
     "sqlWitnessVmNamePrefix": "[concat(parameters('vmNamePrefix'),'-SqlW-')]",
     "sqlwVMName": "[concat(variables('sqlWitnessVmNamePrefix'),'0')]",
 
     "deploySqlAlwaysOn": "deploySqlAlwaysOn",
-    "deploySqlAlwaysOnTemplateUrl": "[concat(parameters('assetLocation'),'/deploySqlAlwaysOn.json')]",
+    "deploySqlAlwaysOnTemplateUrl": "[concat(parameters('assetLocation'),'/DeploySqlAlwaysOn.json')]",
 
     "sqlClusterVmNamePrefix": "[concat(parameters('vmNamePrefix'),'-SqlC-')]",
     "sqlCVMName1": "[concat(variables('sqlClusterVmNamePrefix'),'0')]",
